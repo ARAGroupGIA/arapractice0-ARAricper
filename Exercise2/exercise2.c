@@ -5,16 +5,13 @@
 void main(){
 	/* Here, you should write the source code of your program */
 	
-	int a=0;
-	int b=0;
-	int sum=0;
-	
+	float a,b,sum;
 	printf("Sum two numbers.\nFirst number please.\n");
-	scanf("%d",&a);
+	scanf("%f",&a);
 	printf("Second number please.\n");
-	scanf("%d",&b);
+	scanf("%f",&b);
 	
-	sum=(a+b);
+	sum=a+b;
 	
-	printf("Sum: %d",sum);
+	printf("Sum: %f",sum);
 }
